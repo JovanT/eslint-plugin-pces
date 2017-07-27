@@ -97,5 +97,3 @@ State variables should have `s` as a starting - `state = { sVar1: val }`
 
 
 
-
-
