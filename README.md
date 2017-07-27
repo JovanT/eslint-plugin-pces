@@ -4,11 +4,71 @@ PCES JavaScript code style convention
 
 ## Installation
 
+first make sure that VS Code extension 
+[ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) is installed 
+
+create your project folder for example `myProjectFolder`
+
 You'll first need to install [ESLint](http://eslint.org):
+
+incide your project folder terminal run 
 
 ```
 $ npm i eslint --save-dev
+
+next run 
+
 ```
+$ node_modules\.bin\eslint --init
+
+than choose
+> Answer questions about your style
+
+then "Y" on
+? Are you using ECMAScript 6 features? (y/N) Y
+
+then "Y" on 
+? Are you using ES6 modules? (y/N) Y
+
+than switch on Browser and Node
+? Where will your code run?
+ (*) Browser
+>(*) Node
+
+then "Y" on 
+? Do you use CommonJS? (y/N) Y
+
+then "Y" on 
+? Do you use JSX? (y/N) Y
+
+than "Y" on
+? Do you use React (y/N) Y
+
+than "Spaces" on 
+? What style of indentation do you use?
+  Tabs
+> Spaces
+
+than "Double" on 
+? What quotes do you use for strings? (Use arrow keys)
+> Double
+  Single
+
+than "Windows" on
+? What line endings do you use?
+  Unix
+> Windows
+
+than "Y" on
+? Do you require semicolons? (Y/n) Y
+
+than "JavaScript" on 
+? What format do you want your config file to be in? (Use arrow keys)
+> JavaScript
+  YAML
+  JSON
+
+````
 
 Next, install [eslint-plugin-pces](https://github.com/jovant/eslint-plugin-pces):
 
