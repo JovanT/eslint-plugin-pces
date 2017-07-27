@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-pces",
-  "version": "1.0.3",
+  "version": "1.0.2",
   "description": "pces js code convention",
   "keywords": [
     "eslint",
