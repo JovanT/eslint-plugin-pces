@@ -1,0 +1,30 @@
+{
+  "name": "eslint-plugin-pces",
+  "version": "1.0.3",
+  "description": "pces js code convention",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "eslint-plugin-pces",
+    "pces"
+  ],
+  "author": "Jovan Trajkov",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive",
+    "one-test": "mocha tests/lib/rules/init-state-obj-prop-name-test.js"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "~3.9.1",
+    "eslint-plugin-react": "^7.1.0",
+    "mocha": "^3.1.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "MIT"
+}
