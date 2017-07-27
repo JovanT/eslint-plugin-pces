@@ -10,7 +10,7 @@ You'll first need to install [ESLint](http://eslint.org):
 $ npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-pces`:
+Next, install [eslint-plugin-pces](https://github.com/jovant/eslint-plugin-pces):
 
 ```
 $ npm install eslint-plugin-pces --save-dev
