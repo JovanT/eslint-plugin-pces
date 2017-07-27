@@ -15,6 +15,7 @@ incide your project folder terminal run
 
 ```
 $ npm i eslint --save-dev
+```
 
 next run 
 
